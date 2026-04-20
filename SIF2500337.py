@@ -8,6 +8,7 @@ print("2. Pizza - 1000")
 
 print("3. Juice - 300")
 
+print("4. Sandwich - 400")
 
 choice = input("Enter your choice (burger/pizza/juice): ").lower()
 
@@ -24,6 +25,10 @@ elif choice == "pizza":
 elif choice == "juice":
 
     price = 300
+
+elif choice == "sandwich":
+
+    price = 400
 
 else:
 
